@@ -32,7 +32,7 @@ An admin workstation is used to simulate a real operator performing remote acces
 
 | Device | Interface | IP Address | Role |
 |--------|-----------|------------|------|
-| TACACS Server (Ubuntu 22.04) | e0 | 192.168.10.10 | AAA Server |
+| TACACS Server (Ubuntu 16.04) | e0 | 192.168.10.10 | AAA Server |
 | Cisco Router (IOS 7200) | fa0/0 | 192.168.10.3 | TACACS Client |
 | Admin-PC (Ubuntu 22.04) | e0 | 192.168.10.50 | Management Host |
 
