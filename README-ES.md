@@ -118,8 +118,8 @@ group = grp_junior {
 }
 
 # Usuarios
-user = admin_lab { login = cleartext "admin123" member = grp_superadmin }
-user = user_junior { login = cleartext "user123" member = grp_junior }
+user = admin { login = cleartext "admin123" member = grp_superadmin }
+user = user { login = cleartext "user123" member = grp_junior }
 ```
 
 ### Gestión del Servicio
