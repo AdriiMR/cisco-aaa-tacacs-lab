@@ -32,7 +32,7 @@ Se emplea una estación de trabajo de administración para simular a un operador
 
 | Dispositivo | Interfaz | Dirección IP | Rol |
 |---|---|---|---|
-| Servidor TACACS (Ubuntu 22.04) | e0 | 192.168.10.10 | Servidor AAA |
+| Servidor TACACS (Ubuntu 16.04) | e0 | 192.168.10.10 | Servidor AAA |
 | Router Cisco (IOS 7200) | fa0/0 | 192.168.10.3 | Cliente TACACS |
 | PC-Admin (Ubuntu 22.04) | e0 | 192.168.10.50 | Host de Gestión |
 
